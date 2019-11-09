@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src='https://res.cloudinary.com/woahstorklearn/image/upload/c_crop,h_402,w_716,x_0,y_20/h_381,w_678/v1489533328/Sticky_Cannabis_Fingers_miacvj.jpg' className="App-logo" alt="logo" />
         <p>
-          Dankfingers, coming soon.
+          Smokin' Doobies? Keep those fingers Gucci.
         </p>
         <a
           className="App-link"
