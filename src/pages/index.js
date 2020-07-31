@@ -19,7 +19,7 @@ let StyledBackground = styled.div`
 `
 
 let Service = ({title, Icon = FaHome}) => (
-  <Col>
+  <Col sm="12" md="4">
     <Link to="/">
       <Box>
         <Icon size={30}/>

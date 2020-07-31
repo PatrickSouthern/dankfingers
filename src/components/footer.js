@@ -41,7 +41,7 @@ export default () => (
   <Footer>
     <Container>
       <Row>
-        <Col>
+        <Col xs ="6" sm="3">
           <h5>Services</h5>
           <ul>
             <FooterLink to="/">Full Set Up</FooterLink>
@@ -49,7 +49,7 @@ export default () => (
             <FooterLink to="/">Clone Delivery</FooterLink>
           </ul>
         </Col>
-        <Col>
+        <Col xs ="6" sm="3">
           <h5>Equipment</h5>
           <ul>
             <FooterLink to="/">Lights</FooterLink>
@@ -57,13 +57,13 @@ export default () => (
             <FooterLink to="/">Nutrients</FooterLink>
           </ul>
         </Col>
-        <Col>
+        <Col xs ="6" sm="3">
           <h5>Dank Fingers Consults</h5>
           <ul>
             <FooterLink to="/">About Wills</FooterLink>
           </ul>
         </Col>
-        <Col>
+        <Col xs ="6" sm="3">
           <h5>Contact Us</h5>
           <SocialLink Icon={FaFacebookSquare}/>
           <SocialLink Icon={FaInstagram}/>
