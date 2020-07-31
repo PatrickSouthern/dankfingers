@@ -35,27 +35,27 @@ export default () => (
     <Slider/>
     <Container className="pt-4">
       <div className="text-center">
-        <h4>A slightly opinionated Gatsby starter template.</h4>
-        <p className="text-muted">Built with love on the Gold Coast, QLD Australia</p>
+        <h4>Growing Dank Cannabis is easy with Dank Fingers Consults</h4>
+        <p className="text-muted">Any time, any where</p>
       </div>
     </Container>
     <Container className="py-5">
       <h2 className="text-center mb-4">Services</h2>
       <Row>
-        <Service title="Websites"/>
-        <Service title="SEO"/>
-        <Service title="API"/>
+        <Service title="Full Set Up"/>
+        <Service title="Troubleshoot Consult"/>
+        <Service title="Clone Delivery"/>
       </Row>
     </Container>
     <div className="text-center py-5">
-      <Button to="https://github.com/jeremylynch/gatsby-strapi-starter" className="btn btn-primary btn-lg">
-        <FaGithub className="mr-1"/>
-        View on Github
+      <Button to="/contact" className="btn btn-primary btn-lg">
+        {/* <FaGithub className="mr-1"/> */}
+        Set up a consult
       </Button>
     </div>
     <StyledBackground>
       <Benefits/>
-      <div className="py-5">
+      {/* <div className="py-5">
         <Container>
           <Row className="d-flex justify-content-center">
             <Col md={8}>
@@ -67,7 +67,7 @@ export default () => (
             </Col>
           </Row>
         </Container>
-      </div>
+      </div> */}
     </StyledBackground>
   </Layout>
 )

@@ -42,21 +42,25 @@ export default () => (
     <Container>
       <Row>
         <Col>
-          <h5>Features</h5>
+          <h5>Services</h5>
           <ul>
-            <FooterLink to="/">Item</FooterLink>
+            <FooterLink to="/">Full Set Up</FooterLink>
+            <FooterLink to="/">Troubleshoot Consult</FooterLink>
+            <FooterLink to="/">Clone Delivery</FooterLink>
           </ul>
         </Col>
         <Col>
-          <h5>Resources</h5>
+          <h5>Equipment</h5>
           <ul>
-            <FooterLink to="/">Item</FooterLink>
+            <FooterLink to="/">Lights</FooterLink>
+            <FooterLink to="/">Tents</FooterLink>
+            <FooterLink to="/">Nutrients</FooterLink>
           </ul>
         </Col>
         <Col>
-          <h5>Company</h5>
+          <h5>Dank Fingers Consults</h5>
           <ul>
-            <FooterLink to="/">Item</FooterLink>
+            <FooterLink to="/">About Wills</FooterLink>
           </ul>
         </Col>
         <Col>

@@ -22,7 +22,7 @@ let StyledImg = styled(props => <Img {...props}/>)`
 
 let Benefit = ({title, content}) => (
   <div className="d-flex mb-4">
-    <FaCode size={30} className="text-primary"/>
+    {/* <FaCode size={30} className="text-primary"/> */}
     <div className="ml-3">
       <h4>{title}</h4>
       <p className="m-0 text-muted">{content}</p>
@@ -35,11 +35,11 @@ let Benefits = ({data}) => (
     <Row className="d-flex align-items-center">
       <Col md="6">
         <div className="mb-4">
-          <h2 className="text-primary">Next Generation Websites</h2>
-          <p className="text-muted">Extremely fast. Just try it.</p>
+          <h2 className="text-primary">High Quality Home Grown Bud</h2>
+          <p className="text-muted">Start to finish. Just try it.</p>
         </div>
-        <Benefit title="Styled Components" content="We're using the css-in-js methodology to make this website extremely fast!"/>
-        <Benefit title="Gatsby" content="Gatsby offers a huge range of performance enhancements!"/>
+        <Benefit title="Organic" content="Know what goes into your bud"/>
+        <Benefit title="Local" content="With master grower Wills, right here in Colorado"/>
       </Col>
       <Col md="6">
         <StyledImg fluid={data.file.childImageSharp.fluid} objectFit="contain" objectPosition="50% 50%"/>
@@ -52,7 +52,7 @@ export default () => (
   <StaticQuery
     query={graphql`
       query BenefitsQuery {
-        file(relativePath: {eq: "sample.png"}) {
+        file(relativePath: {eq: "cannabis.jpg"}) {
           id
           childImageSharp {
             fluid {

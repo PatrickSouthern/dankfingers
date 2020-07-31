@@ -1,10 +1,9 @@
 [
   {"name": "Home", "url": "/"},
   {"name": "Contact", "url": "/contact"},
-  {"name": "GitHub", "url": "https://github.com/jeremylynch/gatsby-strapi-starter"},
-  {"name": "Options", "url": "", "dropdownItems": [
-    {"name": "Option 1", "url": "/test"},
-    {"name": "Option 2", "url": "/test"},
-    {"name": "Reset", "url": "/test"}
+  {"name": "Services", "url": "", "dropdownItems": [
+    {"name": "Full Set Up", "url": "/test"},
+    {"name": "Troubleshoot Consult", "url": "/test"},
+    {"name": "Clone Delivery", "url": "/test"}
   ]}
 ]

@@ -14,12 +14,13 @@ const Header = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
-
+  
   return (
     <Navbar color="light" light expand="md">
       <Container>
         <Link to="/" className="navbar-brand">
-          <img src={logo} alt="Logo" height="25px"/>
+          <span className="header-text-top-nav">Dank Fingers</span>
+          {/* <img src={logo} alt="Logo" height="25px"/> */}
         </Link>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
