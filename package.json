@@ -39,7 +39,7 @@
     "reactstrap": "^8.4.1",
     "reactstrap-form-fields": "^1.0.6",
     "reactstrap-json-nav": "^1.0.2",
-    "sharp": "^0.25.4",
+    "sharp": "^0.30.5",
     "slick-carousel": "^1.8.1",
     "styled-components": "^4.4.1"
   },
